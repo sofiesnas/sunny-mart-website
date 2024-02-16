@@ -45,11 +45,11 @@ if(isset($message)){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'syfsofiena@gmail.com';
-        $mail->Password = 'yeuabpeblsklrvjp';
+        $mail->Username = 'xxxxxx';
+        $mail->Password = 'xxxxxxx';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom('syfsofiena@gmail.com', 'Sunny Mart');
+        $mail->setFrom('xxxxxxx', 'Sunny Mart');
         $mail->addAddress($email, $name);
         $mail->isHTML(true);
         $mail->Subject = 'Your order details - Sunny Mart';

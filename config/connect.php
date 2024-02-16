@@ -1,8 +1,8 @@
 <?php 
 
-    $host = "awseb-e-z6tqhgjkp2-stack-awsebrdsdatabase-fdrytig7x6au.cvekeitapkvt.us-east-1.rds.amazonaws.com";
-    $username = "ebroot";
-    $password = "Potato101";
+    $host = "xxx";
+    $username = "xxx";
+    $password = "xxx";
     $database = "grocery_db";
 
     // Creating database connection
